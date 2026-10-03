@@ -3,168 +3,385 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Hidden Word Fest</title>
-    <style>
-        :root {
-            --primary: #4f46e5;
-            --primary-dark: #3730a3;
-            --text-main: #1f2937;
-            --text-muted: #4b5563;
-            --bg-body: #f9fafb;
-            --bg-card: #ffffff;
-            --border-color: #e5e7eb;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-main);
-            background-color: var(--bg-body);
-            margin: 0;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: var(--bg-card);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        }
-
-        header {
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 20px;
-            margin-bottom: 30px;
-        }
-
-        h1 {
-            color: var(--primary);
-            font-size: 2.2rem;
-            margin-bottom: 5px;
-        }
-
-        .meta-info {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-        }
-
-        h2 {
-            color: var(--text-main);
-            font-size: 1.4rem;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-        }
-
-        p {
-            margin-bottom: 15px;
-            color: var(--text-muted);
-        }
-
-        ul {
-            margin-bottom: 20px;
-            padding-left: 20px;
-            color: var(--text-muted);
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .highlight-box {
-            background-color: #eef2ff;
-            border-left: 4px solid var(--primary);
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 0 8px 8px 0;
-        }
-
-        .highlight-box strong {
-            color: var(--primary-dark);
-        }
-
-        a {
-            color: var(--primary);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .contact-info {
-            background-color: #f3f4f6;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.85rem;
-            color: #9ca3af;
-            border-top: 1px solid var(--border-color);
-            padding-top: 20px;
-        }
-    </style>
+    <title>Privacy Policy | Hidden Word Fest</title>
+    
+<style>
+:root{
+  --primary:#5b5ce2;--primary2:#7c3aed;--dark:#101828;--text:#344054;--muted:#667085;
+  --line:#e7eaf0;--bg:#f4f6fb;--card:#fff;--soft:#f5f6ff;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+background:linear-gradient(135deg,#f7f8fc,#eef1f8);color:var(--text);line-height:1.72}
+.page-shell{padding:28px 16px}.container{max-width:1000px;margin:auto;background:var(--card);
+border:1px solid rgba(220,224,234,.8);border-radius:28px;overflow:hidden;box-shadow:0 24px 70px rgba(16,24,40,.10)}
+.hero{position:relative;overflow:hidden;display:flex;align-items:center;gap:24px;padding:55px 54px;
+color:#fff;background:linear-gradient(135deg,#4f46d8,#7c3aed 60%,#9333ea)}
+.hero-glow{position:absolute;width:360px;height:360px;right:-130px;top:-170px;border-radius:50%;background:rgba(255,255,255,.10)}
+.brand-mark{position:relative;z-index:1;width:70px;height:70px;display:grid;place-items:center;border-radius:20px;
+background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);font-weight:900;font-size:1.35rem;
+backdrop-filter:blur(10px)}
+.hero-content{position:relative;z-index:1}.eyebrow{font-size:.75rem;font-weight:800;letter-spacing:.16em;opacity:.78}
+.hero h1{margin:7px 0 0;font-size:clamp(2.3rem,6vw,3.7rem);line-height:1.05;letter-spacing:-.045em}
+.hero-subtitle{margin:12px 0 4px;font-size:1.25rem;font-weight:700;color:#ffffff;} /* Subtitle color set to white for clear visibility */
+.hero-description{margin:0;max-width:650px;color:rgba(255,255,255,.82)}
+.quick-info{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:18px 30px;background:#fff;border-bottom:1px solid var(--line)}
+.info-card{display:flex;align-items:center;gap:12px;padding:15px;border:1px solid var(--line);border-radius:15px;background:#fbfcff}
+.info-icon{font-size:1.25rem}.info-card div{display:grid}.label{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:#98a2b3}
+.info-card strong{font-size:.9rem;color:var(--dark)}
+main{padding:42px 54px}.notice{display:flex;gap:15px;padding:20px 21px;margin-bottom:42px;border:1px solid #dcdfff;
+border-radius:17px;background:linear-gradient(135deg,#f5f6ff,#fbf8ff)}.notice-icon{flex:none;width:30px;height:30px;display:grid;
+place-items:center;border-radius:50%;background:var(--primary);color:#fff;font-weight:800}.notice strong{color:#30318d}.notice p{margin:4px 0 0}
+section{display:grid;grid-template-columns:54px 1fr;gap:18px;margin:0 0 43px}.section-number{font-size:.76rem;font-weight:900;color:var(--primary);
+padding-top:8px;letter-spacing:.05em}.section-content h2,.contact-section h2{margin:0 0 13px;color:var(--dark);font-size:1.38rem;letter-spacing:-.015em}
+p{margin:0 0 15px;color:var(--muted)}strong{color:#344054}
+.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.feature-grid div{padding:17px;border:1px solid var(--line);border-radius:14px;background:#fbfcff}.feature-grid b{display:block;color:var(--dark);margin-bottom:4px}
+.feature-grid span{font-size:.9rem;color:var(--muted)}
+.data-list{border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.data-row{display:grid;grid-template-columns:190px 1fr;gap:20px;padding:17px 19px;border-bottom:1px solid var(--line)}
+.data-row:last-child{border-bottom:0}.data-row span:first-child{font-weight:750;color:var(--dark)}.data-row span:last-child{color:var(--muted);font-size:.93rem}
+.service-card{margin:14px 0;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fbfcff}
+.service-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.service-badge{font-size:.7rem;font-weight:800;padding:3px 8px;border-radius:6px;background:var(--soft);color:var(--primary)}
+.service-card h3{margin:0;font-size:1.05rem;color:var(--dark)}
+.service-card a{display:inline-block;margin-top:8px;color:var(--primary);text-decoration:none;font-weight:600}
+.service-card a:hover{text-decoration:underline}
+.check-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.check-grid div{padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:#fbfcff;font-weight:600;color:var(--dark)}
+.contact-section{display:flex;gap:20px;padding:25px;border:1px solid var(--line);border-radius:20px;background:var(--soft);align-items:flex-start}
+.contact-icon{width:45px;height:45px;display:grid;place-items:center;background:var(--primary);color:#fff;border-radius:12px;font-size:1.2rem;flex:none}
+.email-button{display:inline-block;margin:10px 0 15px;padding:10px 20px;background:var(--primary);color:#fff;border-radius:10px;text-decoration:none;font-weight:600}
+.email-button:hover{background:var(--primary2)}
+.contact-company{margin:0}
+.last-updated{display:flex;justify-content:space-between;padding:15px 0 0;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted)}
+footer{text-align:center;padding:30px;background:#f9fafb;border-top:1px solid var(--line);color:var(--muted)}
+.footer-brand{font-weight:700;color:var(--dark);margin-bottom:4px}
+@media(max-width:768px){
+  .hero{padding:35px 24px;flex-direction:column;align-items:flex-start}
+  main{padding:25px 20px}
+  .quick-info{grid-template-columns:1fr}
+  .feature-grid,.check-grid,.data-row{grid-template-columns:1fr}
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Privacy Policy</h1>
-            <div class="meta-info">
-                <p><strong>App Name:</strong> Hidden Word Fest<br>
-                <strong>Package Name:</strong> com.tinytrickylogics.hidden.word.fest<br>
-                <strong>Developer / Company:</strong> Tiny Tricky Logics<br>
-                <strong>Effective Date:</strong> October 3, 2026</p>
-            </div>
-        </header>
 
-        <p>Tiny Tricky Logics ("we", "our", or "us") built the <strong>Hidden Word Fest</strong> app as a Free game. This SERVICE is provided by Tiny Tricky Logics at no cost and is intended for use as is.</p>
+<div class="page-shell">
+  <div class="container">
 
-        <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
+    <header class="hero">
+      <div class="hero-glow"></div>
+      <div class="brand-mark">TT</div>
+      <div class="hero-content">
+        <div class="eyebrow">PRIVACY &amp; DATA PROTECTION</div>
+        <h1>Privacy Policy</h1>
+        <p class="hero-subtitle">Hidden Word Fest</p>
+        <p class="hero-description">
+          This Privacy Policy explains how Tiny Tricky Logics handles information
+          when you use the Hidden Word Fest mobile game.
+        </p>
+      </div>
+    </header>
 
-        <div class="highlight-box">
-            <strong>Gameplay & Data Overview:</strong> In <em>Hidden Word Fest</em>, players search for and locate hidden alphabets scattered across the board to complete words and successfully clear levels. We do not require account registration, and we do not collect personal identifiers like your real name, phone number, or precise location directly through core gameplay.
-        </div>
-
-        <h2>1. Information Collection and Use</h2>
-        <p>To provide an engaging gaming experience, deliver ads, analyze game performance, and ensure app stability, we integrate trusted third-party packages and services. Below are the specific tools utilized within Hidden Word Fest:</p>
-
-        <ul>
-            <li><strong>Google AdMob:</strong> We use Google AdMob to display banner and interstitial ads within the game. AdMob may collect and use device identifiers, advertising IDs, and IP addresses to serve personalized or non-personalized ads. You can review Google's advertising privacy policy <a href="https://policies.google.com/technologies/ads" target="_blank">here</a>.</li>
-            <li><strong>Firebase Analytics:</strong> We use Google Firebase Analytics to understand gameplay interactions (such as level completion rates, session lengths, and user progression) to help us improve puzzle design and balancing.</li>
-            <li><strong>Firebase Cloud Messaging (FCM):</strong> FCM is utilized to send optional push notifications regarding game updates, new levels, or daily reminders (if enabled by the user).</li>
-            <li><strong>Firebase Crashlytics:</strong> In the event of an unexpected crash or technical error, Crashlytics automatically collects diagnostic logs, device state info, and stack traces to help us fix bugs quickly.</li>
-            <li><strong>In-App Updates (Google Play Core):</strong> We utilize Google Play's update features to check for newer versions of the game, ensuring users have access to the latest fixes and features smoothly.</li>
-        </ul>
-
-        <h2>2. Log Data</h2>
-        <p>Whenever you use our Service, in the case of an error in the app, data and information is collected on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other operational statistics.</p>
-
-        <h2>3. Children’s Privacy</h2>
-        <p>Our games are designed to be family-friendly and safe for users of all ages. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we can take prompt action.</p>
-
-        <h2>4. Security</h2>
-        <p>We value your trust in providing us your information, thus we strive to use commercially acceptable means of protecting it. However, remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
-
-        <h2>5. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-
-        <div class="contact-info">
-            <h2>6. Contact Us</h2>
-            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
-            <p><strong>Email:</strong> <a href="mailto:iq.games.fun@gmail.com">iq.games.fun@gmail.com</a><br>
-            <strong>Developer / Company:</strong> Tiny Tricky Logics</p>
-        </div>
-
-        <footer>
-            &copy; 2026 Tiny Tricky Logics. All rights reserved.
-        </footer>
+    <div class="quick-info">
+      <div class="info-card">
+        <span class="info-icon">🎮</span>
+        <div><span class="label">App</span><strong>Hidden Word Fest</strong></div>
+      </div>
+      <div class="info-card">
+        <span class="info-icon">🏢</span>
+        <div><span class="label">Developer</span><strong>Tiny Tricky Logics</strong></div>
+      </div>
+      <div class="info-card">
+        <span class="info-icon">📅</span>
+        <div><span class="label">Effective date</span><strong>October 3, 2026</strong></div>
+      </div>
     </div>
+
+    <main>
+      <div class="notice">
+        <div class="notice-icon">✓</div>
+        <div>
+          <strong>Privacy at a glance</strong>
+          <p>
+            The game does not ask players to create an account or provide information
+            such as a name, home address, or phone number as part of core gameplay.
+            Some technical, advertising, analytics, notification, and crash-related
+            information may be processed by integrated third-party services.
+          </p>
+        </div>
+      </div>
+
+      <section>
+        <div class="section-number">01</div>
+        <div class="section-content">
+          <h2>About this Privacy Policy</h2>
+          <p>
+            Tiny Tricky Logics (“we,” “our,” or “us”) provides
+            <strong>Hidden Word Fest</strong> as a free-to-play mobile game.
+            This policy describes the types of information that may be processed
+            when you use the Service, why that information may be used, and the
+            choices available to you.
+          </p>
+          <p>
+            By using the game, you acknowledge the practices described in this
+            Privacy Policy. If you do not agree with this policy, please discontinue
+            use of the Service.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">02</div>
+        <div class="section-content">
+          <h2>Game &amp; gameplay</h2>
+          <p>
+            Hidden Word Fest is a word-search puzzle game in which players search
+            for hidden, semi-transparent alphabets placed across interactive game
+            boards. Players tap hidden letters to complete required words and clear
+            levels.
+          </p>
+          <div class="feature-grid">
+            <div><b>🔎 Hidden letters</b><span>Search and identify letters within each level.</span></div>
+            <div><b>👆 Touch controls</b><span>Tap, zoom, and pan around the level canvas.</span></div>
+            <div><b>⏱️ Time challenges</b><span>Complete puzzles within the available time.</span></div>
+            <div><b>💡 Helpful options</b><span>Use hints or revive/add-time features where available.</span></div>
+          </div>
+          <p>
+            These core gameplay interactions do not require players to submit private
+            details such as their name, physical address, or phone number to our servers.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">03</div>
+        <div class="section-content">
+          <h2>Information that may be processed</h2>
+          <p>
+            Depending on how the game is used and which features are available,
+            technical and usage-related information may be processed to operate,
+            maintain, secure, analyze, and improve the Service.
+          </p>
+          <div class="data-list">
+            <div class="data-row"><span>Device &amp; technical information</span><span>May include device model/name, operating system version, app configuration, and related technical details.</span></div>
+            <div class="data-row"><span>Network information</span><span>Technical information such as an IP address may be processed as part of service operation, diagnostics, or advertising.</span></div>
+            <div class="data-row"><span>Usage &amp; analytics</span><span>General gameplay/session information may be used to understand performance and improve the game.</span></div>
+            <div class="data-row"><span>Crash diagnostics</span><span>Crash reports, stack traces, device state, and related diagnostics may be collected to troubleshoot failures.</span></div>
+            <div class="data-row"><span>Advertising information</span><span>Advertising services may process advertising identifiers and related information for ad delivery and measurement.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">04</div>
+        <div class="section-content">
+          <h2>Third-party services &amp; SDKs</h2>
+          <p>
+            We use established third-party services to support advertising, analytics,
+            notifications, crash diagnostics, and app updates. These providers may
+            process information according to their own privacy policies.
+          </p>
+
+          <div class="service-card">
+            <div class="service-top"><span class="service-badge">ADS</span><h3>Google AdMob</h3></div>
+            <p>
+              AdMob is used to display advertisements, including banner and/or
+              interstitial advertising where applicable. Google may process
+              advertising identifiers, IP address, device information, and other
+              information for advertising delivery, personalization where permitted,
+              fraud prevention, measurement, and related purposes.
+            </p>
+            <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google advertising information →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-top"><span class="service-badge">ANALYTICS</span><h3>Firebase Analytics</h3></div>
+            <p>
+              Firebase Analytics may be used to understand generalized gameplay
+              patterns, sessions, level activity, and other usage trends so we can
+              improve game design, performance, and player experience.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-top"><span class="service-badge">NOTIFICATIONS</span><h3>Firebase Cloud Messaging</h3></div>
+            <p>
+              Firebase Cloud Messaging may support optional game notifications,
+              such as reminders or information about available game content,
+              when notification functionality is enabled.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-top"><span class="service-badge">DIAGNOSTICS</span><h3>Firebase Crashlytics</h3></div>
+            <p>
+              Crashlytics may automatically collect technical diagnostics, crash
+              reports, stack traces, and device-state information when an app
+              exception or crash occurs. This helps us identify and fix technical issues.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-top"><span class="service-badge">UPDATES</span><h3>Google Play In-App Updates</h3></div>
+            <p>
+              Google Play's In-App Update framework may be used to check for
+              newer versions of the game and help users receive important updates
+              and improvements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">05</div>
+        <div class="section-content">
+          <h2>How information is used</h2>
+          <div class="check-grid">
+            <div>✓ Provide and operate the game</div>
+            <div>✓ Maintain game functionality</div>
+            <div>✓ Understand general gameplay usage</div>
+            <div>✓ Display and measure advertisements</div>
+            <div>✓ Detect and troubleshoot crashes</div>
+            <div>✓ Improve performance and user experience</div>
+            <div>✓ Support optional notifications</div>
+            <div>✓ Deliver and support game updates</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">06</div>
+        <div class="section-content">
+          <h2>Log data &amp; diagnostics</h2>
+          <p>
+            If an error occurs while using the Service, technical log information
+            may be generated or collected. This may include IP address, device
+            information, operating system version, app configuration, date and time
+            of use, crash details, and other operational statistics.
+          </p>
+          <p>
+            This information is primarily used to diagnose technical problems,
+            maintain reliability, and improve the application.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">07</div>
+        <div class="section-content">
+          <h2>Advertising &amp; choices</h2>
+          <p>
+            Advertisements may be provided through Google AdMob. Depending on
+            applicable settings, permissions, region, and platform controls,
+            advertisements may be personalized or non-personalized.
+          </p>
+          <p>
+            Users can manage certain advertising and privacy choices through their
+            device or Google account settings where those controls are provided.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">08</div>
+        <div class="section-content">
+          <h2>Children’s privacy</h2>
+          <p>
+            Hidden Word Fest is intended to provide a family-friendly gaming
+            experience. We do not knowingly request children to submit personally
+            identifiable information such as names, physical addresses, or phone
+            numbers through the core game.
+          </p>
+          <p>
+            If a parent or guardian believes that a child has provided personal
+            information to us, please contact us so that we can review the matter
+            and take appropriate action.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">09</div>
+        <div class="section-content">
+          <h2>Data security</h2>
+          <p>
+            We take reasonable measures to protect information handled in connection
+            with the Service. However, no method of electronic transmission or
+            storage is completely secure, and we cannot guarantee absolute security.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">10</div>
+        <div class="section-content">
+          <h2>Data retention</h2>
+          <p>
+            Information may be retained for as long as reasonably necessary for the
+            purposes described in this policy, including providing the Service,
+            maintaining security, troubleshooting, analytics, legal obligations,
+            and resolving disputes. Retention periods may also be determined by
+            the respective third-party service providers.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">11</div>
+        <div class="section-content">
+          <h2>Third-party privacy policies</h2>
+          <p>
+            Third-party services integrated into the game may independently collect
+            and process information. Their practices are governed by their own
+            privacy policies and terms. We recommend reviewing the policies of
+            Google and its relevant services for additional details.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-number">12</div>
+        <div class="section-content">
+          <h2>Changes to this Privacy Policy</h2>
+          <p>
+            We may update this Privacy Policy when our game, services, technology,
+            or legal requirements change. The updated version will be posted on
+            this page with a revised effective date. We encourage users to review
+            this page periodically.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="contact-icon">✉</div>
+        <div>
+          <div class="section-number">13</div>
+          <h2>Contact us</h2>
+          <p>
+            If you have questions, concerns, or suggestions about this Privacy Policy
+            or the privacy practices of Hidden Word Fest, please contact us.
+          </p>
+          <a class="email-button" href="mailto:iq.games.fun@gmail.com">iq.games.fun@gmail.com</a>
+          <p class="contact-company"><strong>Tiny Tricky Logics</strong></p>
+        </div>
+      </section>
+
+      <div class="last-updated">
+        <span>Last updated</span>
+        <strong>October 3, 2026</strong>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-brand">Tiny Tricky Logics</div>
+      <p>Privacy Policy for Hidden Word Fest</p>
+      <small>© 2026 Tiny Tricky Logics. All rights reserved.</small>
+    </footer>
+
+  </div>
+</div>
+
 </body>
 </html>
